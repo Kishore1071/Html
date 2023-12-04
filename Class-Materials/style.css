@@ -1,0 +1,65 @@
+* {
+    color: green;
+    margin: 0;
+    padding: 0;
+}
+
+.para {
+    color: blue;
+    background-color: aqua;
+}
+
+.font-size {
+    font-size: large;
+}
+
+#new-para {
+    color: red;
+}
+
+p {
+    color: orange;
+    background-color: brown;
+}
+
+.box-modal {
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    border: 5px solid blue;
+    padding: 10px;
+    /* margin-right: 100px;
+    margin-left: 100px; */
+    /* margin: 150px 250px 400px 550px; */
+    /* outline: 5px solid grey; */
+    /* outline-offset: 10px; */
+}
+
+.new {
+    float: right;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+
+.child {
+    position: absolute;
+    left: 20%;
+    color: hsl(300, 100%, 50%);
+    opacity: 0.5;
+}
+
+ol {
+    list-style-type: none;
+    list-style-image: url('');
+    list-style-position: inside;
+}
+
+a {
+    text-decoration: none;
+}
