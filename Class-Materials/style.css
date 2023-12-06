@@ -1,7 +1,7 @@
 * {
-    color: green;
-    margin: 0;
-    padding: 0;
+    /* color: green; */
+    /* margin: 0;
+    padding: 0; */
 }
 
 .para {
@@ -18,8 +18,8 @@
 }
 
 p {
-    color: orange;
-    background-color: brown;
+    /* color: orange; */
+    /* background-color: brown; */
 }
 
 .box-modal {
@@ -62,4 +62,55 @@ ol {
 
 a {
     text-decoration: none;
+}
+
+table, td, th {
+    border: 2px solid grey;
+    border-collapse: collapse;
+}
+
+table {
+    width: 50%;
+    text-align: center;
+    overflow-x: auto;
+}
+
+td, th {
+    padding: 10px;
+}
+
+p {
+    /* font-size: 50px;
+    text-shadow: 5px 2px 3px black;
+    z-index: -122; */
+}
+
+
+div > p {
+    color: red;
+}
+
+div ~ h1 {
+    color: blue;
+}
+
+button {
+    background-color: aqua;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+}
+
+h1:hover{
+    background-color: blueviolet;
+    color: white;
+    font-size: 50px;
+    padding: 35px;
+}
+
+button:hover {
+    background-color: blueviolet;
+    color: white;
+    font-size: 50px;
+    padding: 35px;
 }
