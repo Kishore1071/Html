@@ -101,12 +101,12 @@ button {
     cursor: pointer;
 }
 
-h1:hover{
+/* h1:hover{
     background-color: blueviolet;
     color: white;
     font-size: 50px;
     padding: 35px;
-}
+} */
 
 button:hover {
     background-color: blueviolet;
