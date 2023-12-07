@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    
+    display: flex;
+    /* flex-direction: column; */
+    background-color: greenyellow;
+    /* column-gap: 10px; */
+    /* row-gap: 20px; */
+    width: 50%;
+    height: 500px;
+    /* justify-content: space-evenly; */
+    /* align-items: end; */
+    flex-wrap: wrap;
+}
+
+.child1 {
+    flex: 1;
+    background-color: red;
+    height: 50px;
+    /* width: 50px; */
+}
+.child2 {
+    flex: 4;
+    background-color: orange;
+    height: 50px;
+    /* width: 50px; */
+}
+.child3 {
+    flex: 1;
+    background-color: violet;
+    height: 50px;
+    /* width: 50px; */
+}
