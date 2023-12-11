@@ -6,22 +6,22 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
+    <form >
 
         <label for="user_name">User Name</label>
-        <input type="text" name="user_name" id="user_name" value="Kishore">
+        <input type="text" name="user_name" id="user_name" value="Kishore" maxlength="5" minlength="10" autocomplete="on">
         <br>
         
         <label for="phone_number">Phone Number</label>
-        <input type="number" name="phone_number" id="phone_number" placeholder="Enter your phone number">
+        <input type="number" name="phone_number" id="phone_number" step="10" max="100" min="50" placeholder="Enter your phone number linked with bank">
         <br>
 
         <label for="user_password">Password</label>
-        <input type="password" name="user_password" id="user_password" required >
+        <input type="password" name="user_password" id="user_password" required autofocus> 
         <br>
 
         <label for="user_email">Email</label>
-        <input type="email" name="user_email" id="user_email" value="kishore@gmail.com" autofocus readonly>
+        <input type="email" name="user_email" id="user_email" value="kishore@gmail.com" readonly>
         <br>
 
         <label for="favourite_language">Favourite Language</label>
@@ -30,9 +30,11 @@
         <input type="checkbox" name="html-language" id="html-language">
         <label for="html-language">Html</label>
         <br>
+
         <input type="checkbox" name="css-language" id="css-language">
         <label for="css-language">CSS</label>
         <br>
+        
         <input type="checkbox" name="javascript-language" id="javascript-language">
         <label for="javascript-language">Javascript</label>
         <br>
@@ -47,9 +49,9 @@
         <br>
 
         <select name="lang" id="lang" multiple>
-            <option value="html">Html</option>
-            <option value="css">Css</option>
-            <option value="javascript">Javascript</option>
+            <option value="1">Html</option>
+            <option value="2">Css</option>
+            <option value="3">Javascript</option>
         </select>
 
         <input type="submit" value="Submit Button">
